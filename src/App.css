@@ -1,0 +1,89 @@
+.app-container {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin-bottom: auto;
+  width: 100%;
+  
+}
+input,input[type=file],input[type=date],input[type=text],input[type=password],input[type=submit],input[type=email],input[type=url],input[type=number],input[type=datetime],textarea {
+	border: 1px solid rgb(71, 129, 106);
+	background: white;
+	width: 100%;
+}
+
+form {
+	width: 450px;
+	margin: 0 auto;
+	position: relative;
+	top: 50px;
+
+	background: rgb(165, 199, 127);
+	
+	border: 5px solid rgba(2, 46, 50,1);
+	padding: 35px 30px 5px 30px;
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+	-webkit-box-shadow: inset 0px 1px 1px rgba(255,255,255,1), 0px 10px 15px rgba(0,0,0,.5);
+	-moz-box-shadow: inset 0px 1px 1px rgba(255,255,255,1), 0px 10px 15px rgba(0,0,0,.5);
+	box-shadow: inset 0px 1px 1px rgba(255,255,255,1), 0px 10px 15px rgba(0,0,0,.5);
+	-moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
+}
+textarea {
+	height: 150px;
+}
+
+
+ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ol li label,ol li .grouplabel {
+	display: block;
+	font: bold 14px "Lucida Grande", Lucida, Verdana, sans-serif;
+	padding: 5px;
+	color: #315848;
+	display: block;
+	text-align: left;
+	text-shadow: 0 1px 0px #FFF;
+	
+}
+.button{
+  color: #FFC861;
+	padding: 5px 10px;
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+	background: rgb(2, 46, 50);
+}
