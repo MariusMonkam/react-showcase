@@ -73,7 +73,7 @@ export default function Notes() {
         <input type="text" value={title} onChange={handleTitle} />
         <button type="submit">Add note</button>
       </form>
-    
+    <a href="https://github.com/MariusMonkam/react-showcase/blob/master/src/components/pages/notes/Notes.js">Source-code</a>
     </div>
   );
 }

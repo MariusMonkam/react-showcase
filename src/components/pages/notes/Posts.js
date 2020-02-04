@@ -88,7 +88,7 @@ export default function Posts() {
         <textarea value={body} onChange={handleBody}></textarea>
         <button type="submit">Add post</button>
       </form>
-    <a href=""> Source-code</a>
+    <a href="https://github.com/MariusMonkam/react-showcase/blob/master/src/components/pages/notes/Posts.js">Source-code</a>
     </div>
   );
 }
