@@ -23,6 +23,8 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+
 .footer {
   position: fixed;
   left: 0;
@@ -31,6 +33,7 @@
   width: 100%;
   
 }
+
 input,input[type=file],input[type=date],input[type=text],input[type=password],input[type=submit],input[type=email],input[type=url],input[type=number],input[type=datetime],textarea {
 	border: 1px solid rgb(71, 129, 106);
 	background: white;
@@ -77,13 +80,32 @@ ol li label,ol li .grouplabel {
 	text-shadow: 0 1px 0px #FFF;
 	
 }
-.button{
-  color: #FFC861;
-	padding: 5px 10px;
+
+.side-button-notes{
+  color: white;
+  padding: 5px 10px;
+  
+  width: 100px;
+  cursor: pointer;
+
 
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 
-	background: rgb(2, 46, 50);
+	background:#343A40;
+}
+.side-button{
+  color: white;
+  padding: 5px 10px;
+  display: block;
+  width: 100px;
+  cursor: pointer;
+
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+	background:#343A40;
 }

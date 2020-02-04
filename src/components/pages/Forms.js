@@ -14,7 +14,7 @@ class Forms extends Component {
   render() {
     return (
       <div
-        id="sidebar"
+        
         className=" container-fluid d-flex justify-content-space-around text-center row col-12"
       >
         <div className="col-2 text-left">
@@ -23,37 +23,42 @@ class Forms extends Component {
             <ol className="nav-link">
             <li >
                  <Link to="/forms/form/login">
-                  <button type="button">Login</button>
+                  <button className="side-button" type="button">Login</button>
                 </Link>
               </li>
               <li >
                  <Link to="/forms/form/register">
-                  <button type="button">Register</button>
+                  <button className="side-button" type="button">Register</button>
                 </Link>
               </li>
               <li >
                  <Link to="/forms/form/logout">
-                  <button type="button">Logout</button>
+                  <button className="side-button" type="button">Logout</button>
                 </Link>
               </li>
               <li >
                  <Link to="/forms/form/userbar">
-                  <button type="button">UserBar</button>
+                  <button className="side-button" type="button">UserBar</button>
                 </Link>
               </li>
             <li >
                  <Link to="/forms/form/form1">
-                  <button type="button">Form1</button>
+                  <button className="side-button" type="button">Form1</button>
                 </Link>
               </li>
               <li>
                 <Link to="/forms/form/form2">
-                  <button type="button">Form2</button>
+                  <button className="side-button" type="button">Form2</button>
                 </Link>
               </li>
               <li>
                 <Link to="/forms/form/form3">
-                  <button type="button">Form3</button>
+                  <button className="side-button" type="button">Form3</button>
+                </Link>
+              </li>
+              <li>
+                <Link to="/">
+                  <button className="side-button" type="button">Home</button>
                 </Link>
               </li>
             </ol>
