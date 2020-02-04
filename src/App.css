@@ -81,6 +81,11 @@ ol li label,ol li .grouplabel {
 	
 }
 
+.post{
+  widows: 150px;
+ 
+}
+
 .side-button-notes{
   color: white;
   padding: 5px 10px;

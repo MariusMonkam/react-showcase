@@ -1,8 +1,9 @@
 import React from 'react';
-import Home from './pages/Home'
-import {Route } from 'react-router-dom'
-import Forms from './pages/Forms'
+import Home from './pages/Home';
+import {Route } from 'react-router-dom';
+import Forms from './pages/Forms';
 import Notes from './pages/notes/Notes';
+import Posts from './pages/notes/Posts';
 
 export default function AppBody(){
   return (
@@ -19,6 +20,10 @@ export default function AppBody(){
       <Route
     path="/notes/"
     component={Notes}
+     />
+     <Route
+    path="/posts/"
+    component={Posts}
      />
     </React.Fragment>
    

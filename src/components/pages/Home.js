@@ -20,6 +20,11 @@ export default function Home(){
                 </Link>
               </li>
               <li >
+                 <Link to="/posts">
+                  <button className="side-button" type="button">Posts</button>
+                </Link>
+              </li>
+              <li >
                  <Link to="/">
                   <button className="side-button" type="button">Home</button>
                 </Link>
