@@ -36,7 +36,7 @@ export default function Notes() {
   return (
 
 
-    <div className="container-fluid">
+    <div className="container-fluid d-flex justify-content-center">
      <nav className="button-notes" > 
             <div>
             <ol className="nav-link">
@@ -53,22 +53,23 @@ export default function Notes() {
              
             </div>
           </nav>
-      <h2>Notes</h2>
-      <p>Add note</p>
-      <div className="d-flex justify-content-center">
+      
+      <div className=" d-flex justify-content-center">
       {/**Here we need to map trough the notes array to display the list of note
       remember that note need to have unique identify key, here our
       key={note.title} */}
         {notes.map(note => (
-          <div key={note.title} className="row mr-5" >
+          <div key={note.title} className="mr-3" >
             <h1>{note.title}</h1>
              {/*to avoid calling the wrong argument we are not going to call the function directly
              we use arrow function to call the correct argument  */}
-            <button onClick={()=>removeNote(note.title)} className="bg-danger text-white">X</button>
+            <button onClick={()=>removeNote(note.title)} className="bg-danger text-white float-right inline-blok">X</button>
           </div>
         ))}
       </div>
       <form onSubmit={AddNotes}>
+      <h2>Notes</h2>
+      <p>Add note</p>
         
         <input type="text" value={title} onChange={handleTitle} />
         <button type="submit">Add note</button>
