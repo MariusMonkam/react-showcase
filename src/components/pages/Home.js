@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 export default function Home(){
   return (
-   <div>
+   <div className="d-flex justify-content-between ">
    <div className="col-2 text-left">
           <nav id="sidebar-home">
             <div>
@@ -35,9 +35,14 @@ export default function Home(){
              
             </div>
           </nav>
+
         </div>
    
+  <div className="in-feeds">
   
+  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6630054915521806336" height="400" width="400" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6630516920078733312" height="400" width="400" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+  </div>
    
    </div>
 
