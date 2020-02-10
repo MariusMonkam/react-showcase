@@ -38,6 +38,13 @@ export default function Home() {
                 </Link>
               </li>
               <li>
+                <Link to="/fetchdata">
+                  <button className="side-button" type="button">
+                    FetchData
+                  </button>
+                </Link>
+              </li>
+              <li>
                 <Link to="/">
                   <button className="side-button" type="button">
                     Home

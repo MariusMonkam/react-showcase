@@ -94,7 +94,7 @@ useEffect(()=>{
         ))}
       </div>
      
-      <form onSubmit={AddPosts} style={{backgroundColor:'magenta'}}>
+      <form onSubmit={AddPosts} style={{backgroundColor:'purple'}}>
       <h2>posts</h2>
       <p>Add post</p>
         
@@ -102,7 +102,7 @@ useEffect(()=>{
         <textarea value={body} onChange={handleBody}></textarea>
         <button type="submit">Add post</button>
       </form>
-    <a href="https://github.com/MariusMonkam/react-showcase/blob/master/src/components/pages/notes/LocalStoragePosts.js">Source-code</a>
+    <a href="https://github.com/MariusMonkam/react-showcase/blob/master/src/components/pages/notes/LocalStorage.js">Source-code</a>
     </div>
   );
 }

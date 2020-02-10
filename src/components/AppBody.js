@@ -5,6 +5,8 @@ import Forms from './pages/Forms';
 import Notes from './pages/notes/Notes';
 import Posts from './pages/notes/Posts';
 import LocalStoragePosts from './pages/notes/LocalStoragePosts';
+import FetchData from './pages/fetchingdata/FetchData';
+
 
 
 export default function AppBody(){
@@ -30,6 +32,10 @@ export default function AppBody(){
      <Route
     path="/localstorage/"
     component={LocalStoragePosts}
+     />
+      <Route
+    path="/fetchdata/"
+    component={FetchData}
      />
     </React.Fragment>
    
