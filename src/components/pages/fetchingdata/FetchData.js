@@ -40,7 +40,7 @@ useEffect(()=>{
     ))}
     </ul>
   
-    <a href="https://github.com/MariusMonkam/react-showcase/blob/master/src/components/pages/fetchingdata/FetchData.js">Source-code</a>
+    <a href="http://github.com/MariusMonkam/react-showcase/blob/master/src/components/pages/fetchingdata/FetchData.js">Source-code</a>
     <hr/>
     <div>
       <h1>Fetching with Async syntax</h1>
