@@ -45,19 +45,20 @@ export default function Home() {
                 </Link>
               </li>
               <li>
-                <Link to="/">
-                  <button className="side-button" type="button">
-                    Home
-                  </button>
-                </Link>
-              </li>
-              <li>
                 <Link to="/animation">
                   <button className="side-button" type="button">
                     Animation
                   </button>
                 </Link>
               </li>
+              <li>
+                <Link to="/">
+                  <button className="side-button" type="button">
+                    Home
+                  </button>
+                </Link>
+              </li>
+              
             </ol>
           </div>
         </nav>
