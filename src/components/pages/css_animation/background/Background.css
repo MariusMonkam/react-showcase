@@ -1,0 +1,13 @@
+#background-base{
+  background-image: url("https://source.unsplash.com/weekly?fashion");
+        width: 100%;
+        height: 1022px;
+        z-index: -1;
+        animation: back 30s infinite;
+        animation-timing-function: linear;
+}
+@keyframes back {
+  100% {
+    background-position: 3067px 0;
+  }
+}

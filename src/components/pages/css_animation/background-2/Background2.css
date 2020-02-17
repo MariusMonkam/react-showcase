@@ -1,0 +1,28 @@
+#background2-base{
+  background-color:rgba(red, green, blue, .3);
+        width: 100%;
+        height: 1022px;
+        z-index: -1;
+        animation: back 30s infinite;
+        animation-timing-function: linear;
+}
+@keyframes back {
+  100% {
+    background-position: 3067px 0;
+  }
+}
+
+#background2-outer{
+  background-color:rgba(red, rgb(171, 171, 171), blue, .3);
+  width: 100%;
+ height: 1022px;
+        z-index: -1;
+        animation: front 30s infinite;
+        animation-timing-function: linear;
+  
+}
+@keyframes front {
+  100% {
+    background-position: 0 3067px ;
+  }
+}

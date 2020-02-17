@@ -51,10 +51,18 @@ export default function Home() {
                   </button>
                 </Link>
               </li>
+              <li>
+                <Link to="/animation">
+                  <button className="side-button" type="button">
+                    Animation
+                  </button>
+                </Link>
+              </li>
             </ol>
           </div>
         </nav>
       </div>
+     
 
       <div className="in-feeds">
         <iframe

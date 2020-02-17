@@ -6,6 +6,8 @@ import Notes from './pages/notes/Notes';
 import Posts from './pages/notes/Posts';
 import LocalStoragePosts from './pages/notes/LocalStoragePosts';
 import FetchData from './pages/fetchingdata/FetchData';
+import Animation from './pages/css_animation/Animation';
+
 
 
 
@@ -36,6 +38,10 @@ export default function AppBody(){
       <Route
     path="/fetchdata/"
     component={FetchData}
+     />
+      <Route
+    path="/animation/"
+    component={Animation}
      />
     </React.Fragment>
    

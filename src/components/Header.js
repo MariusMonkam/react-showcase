@@ -15,6 +15,13 @@ class Navbar extends Component {
                 <Link className="nav-link" to="/">
                   Home{" "}
                 </Link>
+
+              </li>
+              <li className="nav-item active">
+                <Link className="nav-link" to="/animation">
+                  Animation{" "}
+                </Link>
+                
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="https://github.com/MariusMonkam/react-showcase">

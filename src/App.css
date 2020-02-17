@@ -105,12 +105,118 @@ ol li label,ol li .grouplabel {
   padding: 5px 10px;
   display: block;
   width: 100px;
-  cursor: pointer;
-
-
+	cursor: pointer;
+	position: relative;
+	text-shadow: 0 0 1px #333;
+	z-index:0;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
-	border-radius: 10px;
+	border-radius: .2m;
 
 	background:#343A40;
+}
+
+.side-button::before{
+	-webkit-animation: rotate 2s linear infinite;
+					animation: rotate 2s linear infinite;
+	background: -webkit-linear-gradient(top,#343A40,#FD0A69 90% );
+	background: linear-gradient(to bottom,#343A40,#FD0A69 90%);
+ border-radius: .15em;
+ bottom: -50%;
+ content: "";
+	 left: -100%;
+ position: absolute;
+
+	
+ z-index: -1;
+
+					
+}
+.side-button::after{
+	background:#343A40 ;
+	border-radius: .1em;
+	bottom: .1em;
+  content: "";
+    left: .1em;
+  
+    right: .1em;
+    top: .1em;
+  z-index: -1;
+
+}
+.side-button:hover{
+
+	text-decoration: none;
+  -webkit-transform: scale(1.2);
+					transform: scale(1.2);
+					background: -webkit-linear-gradient(top,#343A40,rgb(68, 45, 243) 90% );
+	background: linear-gradient(to bottom,#343A40,rgb(68, 45, 243)  90%);
+}
+.side-button:hover::after{
+	opacity:.8;
+}
+.side-button:active{
+	-webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: none;
+  transition: none;
+}
+
+
+.wrapper{
+
+	width: 400px;
+	height: 400px;	
+	background-color:rgba(26, 27, 25, 0.2);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	border-width: 5px;
+	border-color:rgb(165, 199, 127,.8);
+	border-style:solid;
+
+}
+#base-menu{
+	width: 370px;
+	height: 370px;
+}
+
+#hexagon {
+	width: 100px;
+	height: 55px;
+	background: red;
+	position: relative;
+	
+}
+#hexagon:before {
+	content: "";
+	position: absolute;
+	top: -25px;
+	left: 0;
+	width: 0;
+	height: 0;
+
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 25px solid red;
+}
+#hexagon:after {
+	content: "";
+	position: absolute;
+	bottom: -25px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 25px solid red;
+}
+
+.animate-pop-in {
+  -webkit-animation: no-transform .6s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
+          animation: no-transform .6s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
+  opacity: 0;
+  -webkit-transform: translateY(-4rem) scale(.8);
+          transform: translateY(-4rem) scale(.8);
 }
